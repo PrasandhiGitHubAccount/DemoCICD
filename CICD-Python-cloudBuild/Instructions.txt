@@ -1,0 +1,7 @@
+#Build Docker image and send to gcr
+docker build -t gcr.io/amazing-thought-445313-j2/image1-pythonapp1:v01 .
+#To list all docker image created or already there
+docker image ls
+#To Push Docker image in Container Registry
+docker push gcr.io/amazing-thought-445313-j2/image1-pythonapp1:v01
+#
